@@ -1,6 +1,17 @@
+## Trunk
+
+
+
+
 ## Flow
 
 What is [flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
+Flow is **BAD!!!**
+
+Do not use **FLOW!!!**
+
+This repo was initiated by flow, and later it was removed.
 
 Tested by two users.
 
