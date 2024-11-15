@@ -15,6 +15,10 @@ This repo was initiated by flow, and later it was removed.
 
 Tested by two users.
 
+## Hints
+
+- [VS Code](DOC/VS_Code_setup.md)
+
 ### Multiple users and ssh keys
 
 Use multiple users at one PC with miltiple repos.
