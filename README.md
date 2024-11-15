@@ -2,6 +2,10 @@
 
 
 
+## Hints
+
+- [VS Code](DOC/VS_Code_setup.md)
+
 
 ## Flow
 
