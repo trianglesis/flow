@@ -19,3 +19,5 @@
     Another fix in trunk!
     Fix this file version FROM main, but PR first in TRUNK.
     Fix delta from main at staging.
+    Changes in miltiple files, added to one PR.
+    This PR will be merged in trunk and after in main.
