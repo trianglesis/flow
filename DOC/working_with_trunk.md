@@ -34,6 +34,21 @@ Everyhing is already tested in the `trunk` reviewed and approved.
     - The `main` branch may also include `hotfixes` from the release branch.
 
 
+## Issues:
+
+- Branch `trunk` is N commits **ahead** of main.
+  - Since we does not care about trunk history - we use `rebase` option to attach `trunk` to the `main` changes and run `push --force` to alter any stuck commits at `trunk`.
+  - It's only a solution for the situation wen `trunk` to `main` diff shows: `Showing with 0 additions and 0 deletions.` In such case we can halt PRs into the trunk or merge important **#PRs** from `trunk` to the `main` and later `rebase` with `push --force` again.
+
+
+- Branch `trunk` is N commits **behind** of main.
+  - It's not an issue, this is actually shows that the `main` branch hasn't recieved some commits from the `trunk` yet.
+  - User or manager must create a #PR from `trunk` into the `main` using `main` as the base. (checkout `main`, cherrypick from `trunk` - merge into the `main`)
+    - Cherry-pick the commits that have an actual diff.
+    - Optionally: Just merge everything, and decide to `rebase`, `merge`, or `squash`.
+      - `Rebase` will save users commit formats and messages as they were in 'trunk`.
+  - Repeate the diff again, untill **behind** dissapears.
+
 ## Disaster:
 
 - The branch `trunk` can be deleted and recreated if complications occur.
