@@ -1,6 +1,6 @@
 ## Trunk
 
-
+- [Working how](DOC/working_with_trunk.md)
 
 ## Hints
 
