@@ -11,3 +11,9 @@
     Ut eget enim sit amet ante dignissim lacinia sit amet a risus.
     Etiam at nisi non lectus placerat porttitor.
     Morbi egestas leo ac turpis ultricies pellentesque.
+
+    Bot user fixes beta in personal copy of branch trunk.
+    Merges the user branch into the trunk.
+    Create a user branch from the main branch.
+    Picks his change from trunk into PR into the main.
+    At the end of the release - main merges (rebase) back into the trunk.
