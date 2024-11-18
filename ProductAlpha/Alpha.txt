@@ -27,3 +27,5 @@
     Phasellus et lorem fringilla, varius elit ac, iaculis leo.
     Quisque molestie magna eu dapibus blandit.
     Phasellus rutrum sem sed mattis blandit.
+
+    Adding new feature.
