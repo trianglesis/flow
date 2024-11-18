@@ -29,3 +29,4 @@
     Phasellus rutrum sem sed mattis blandit.
 
     Adding new feature.
+    Fix from trunk.
