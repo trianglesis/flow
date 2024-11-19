@@ -21,3 +21,4 @@
     Fix delta from main at staging.
     Changes in miltiple files, added to one PR.
     This PR will be merged in trunk and after in main.
+    Hotfix for Delta: branch from release2 and create a PR into relese2 branch. Optionally, push this PR into trunk too?
